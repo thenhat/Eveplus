@@ -1,0 +1,12 @@
+.card-img-top{
+    border-radius: 0;
+}
+.card-img-box{
+    border-radius: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}

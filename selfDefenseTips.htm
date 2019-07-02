@@ -1,0 +1,26 @@
+<div ng-cotroller="selfDefenseTipsController">
+    <!-- Banner -->
+    <div class="sm-banner-container">
+        <div class="sm-banner" style="background-image: url(img/sm-banner-self-defense.jpg)"></div>
+        <div class="sm-banner-text container-fluid">
+            <div class="demo-banner-title"><h1>SELF-DEFENSE</h1></div>
+        </div>
+    </div>
+    <!-- selfDefenseTips.htm -->
+    <div class="container">
+        <div >
+            <div class="row">
+                <div ng-repeat="entry in tip" value="entry.name" class="col-lg-6 p-3">
+                    <div class="selfDefenseTips-card">
+                        <div class="tip-video">
+                            <iframe width="100%" height="100%" ng-src="{{getIframeSrc(entry.link)}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="description-heading video-title">
+                            <h2>{{entry.title}}</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+.home-block{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.home-heading {
+    text-decoration: none;
+}
+
+.ticker {
+    display: flex;
+}
+.ticker__list {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: ticker 30s infinite linear;
+}
+.ticker:hover .ticker__list {
+    animation-play-state: paused;
+}
+.ticker__item {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.ticker_img {
+    height: 30vh;
+    width: auto;
+}
+
+@-moz-keyframes ticker {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes ticker {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@-o-keyframes ticker {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes ticker {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Map */
+.home-map{
+
+}

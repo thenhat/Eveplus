@@ -1,0 +1,9 @@
+/* Unsafe Area */
+#map {
+    width: 100%;
+    height: 350px;
+}
+.unsafe-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

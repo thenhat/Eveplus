@@ -1,0 +1,137 @@
+<div ng-controller="homeController">
+    <!-- Banner -->
+    <div class="container-img">
+        <img src="img/banner-home-3.jpg" alt="banner">
+        <div class="banner-text container-fluid">
+            <div class="banner-title"><h1>Need Help? Know the Law, Stay Safe and Understand Abuse.</h1></div>
+            <div class="banner-description"><p>EvePlus is METRAC legal information website. EvePlus tries to help survivors of violence and their supporters better understand legal rights in Ontario. We do not give legal advice. The website offers accessible legal information in a way that reflects the diverse experiences and realities of women. EvePlus contains information on relevant legal issues, including written law (legislation) and case law (court decisions). EvePlus is a project of the non-profit organization METRAC Action on Violence.</p></div>
+        </div>
+    </div>
+    <!-- Content Home -->
+    <div class="container mt-4 mb-4">
+        <div class="container-fluid box-content">
+            <div class="row">
+                <div class="col-lg-4 about-img-box">
+                    <img class="about-img" src="http://www.womenagainstabuse.org/uploads/stories/mike.jpg" alt="Mike">
+                </div>
+                <div class="col-lg-8 description-box">
+                    <div class="text-center description-heading">
+                        <h2>The police liaison for Women Against Abuse</h2>
+                    </div>
+                    <hr>
+                    <div class="about-detail text-justify">
+                        <p>Mike, a former police detective with the Philadelphia Police Department, has been working as the
+                            police liaison for Women Against Abuse, so that he can help survivors in ways he couldn’t as a
+                            detective.</p>
+                        <p>Even though the job comes with some tough challenges, Mike continues to love every day of work.
+                            “Working with some really strong
+                            people and seeing the problems they face every day and being able to help them get through it
+                            and match them with the service they need. That’s the best thing,” said Mike. “To see the
+                            resilience when they come to you, they give you strength. Our clients give us strength to go
+                            forward.”
+                        </p>
+                        <p>
+                            In June 2018, Mike was honored with the Excellence in Male Leadership Award by the Pennsylvania
+                            Coalition Against Domestic Violence as part of their Father's Day campaign. Mike received the
+                            award at the Philadelphia Phillies' annual Domestic Violence Awareness game, where he threw out
+                            the first pitch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid box-content">
+            <div class="row">
+                <div class="col-lg-8 description-box">
+                    <div class="text-center description-heading">
+                        <h2>BETH HUFFMAN’S STORY</h2>
+                    </div>
+                    <hr>
+                    <div class="about-detail text-justify">
+                        <p>Nearly a decade ago I worked on a special public relations project while at the Philadelphia Bar
+                            Association with Molly Callahan – working to get the
+                            word out about a training program for lawyers to help the Women Against Abuse legal clinic. A
+                            short time later I had moved to Dechert, but Molly remembered my work when a client’s child was
+                            abducted and called to ask if I could help get a press conference set up. We were able to get
+                            all the local TV stations, radio outlets to an event where the child’s mother,
+                            Women Against Abuse officials and the police told the story. Happily, the child was found within
+                            a few days.</p>
+                        <p>I asked Molly what more I could do and she told me the holiday drive was in desperate need of
+                            donations. A few years later when Dechert was looking for a holiday charity, I happily suggested
+                            Women Against Abuse and we’ve been
+                            successful partners ever since.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 about-img-box">
+                    <img class="about-img"
+                         src="http://www.womenagainstabuse.org/uploads/stories/Beth_Huffman_headshot_for_website_300x300.jpg"
+                         alt="owner">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid box-content">
+            <div class="row">
+                <div class="col-lg-4 about-img-box">
+                    <img class="about-img" src="http://www.womenagainstabuse.org/uploads/stories/PHOTO_GetHelp.jpg"
+                         alt="owner">
+                </div>
+                <div class="col-lg-8 description-box">
+                    <div class="text-center description-heading">
+                        <h2>DANA’S STORY</h2>
+                    </div>
+                    <hr>
+                    <div class="about-detail text-justify">
+                        <p>Former emergency shelter resident Dana*, intelligent and bright-spirited, worked hard for her
+                            credentials.</p>
+                        <p>Miles from home and without friends or family to support her, Dana turned to WAA's emergency
+                            shelter for safety. With the help of WAA staff, she was able to secure a two-bedroom apartment
+                            with a transitional housing program. She in on track to pursuing her goal of becoming a licensed
+                            US dentist, and she is currently enrolled in a Dental Assistant program. With support from WAA's
+                            Legal Center, HIAS and the Nationalities Services Center, she is obtaining a visa to stay in the
+                            country with her young daughter. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Women Heroes-->
+        <div class="home-block" style="overflow: hidden;">
+            <div class="text-center description-heading">
+                <h2>Women Heroes</h2>
+            </div>
+            <div class="ticker">
+                <div class="ticker__list">
+                    <div ng-repeat="entry in hero" value="entry.name" class="ticker__item">
+                        <img class="ticker_img" ng-src="{{entry.link}}"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us -->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="container-fluid">
+                    <div class="text-center description-heading">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div>
+                        <legend><span class="glyphicon glyphicon-globe"></span>Our office</legend>
+                        <address>
+                            <strong>Twitter, Inc.</strong><br> 8 Ton That Thuyet, Ha Noi, VN<br>
+                            <abbr title="Phone">Phone: </abbr>(123) 456-7890
+                        </address>
+                        <address>
+                            <strong>Email</strong><br>
+                            <a href="mailto:#">eveplus@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 home-map">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/home.js"></script>

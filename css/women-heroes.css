@@ -1,0 +1,232 @@
+.box-content .about-img-box img {
+    width: 100%;
+    height: auto;
+}
+
+/*.div[class^="col-*"] {*/
+    /*padding: 0 !important;*/
+    /*margin: 0 !important;*/
+/*}*/
+
+.about-detail p, .about-detail li {
+    font-family: 'Charmonman', cursive;
+    font-size: 1.2em;
+}
+
+/*p {*/
+    /*text-indent: 2em;*/
+/*}*/
+
+.description-box p::first-letter {
+    font-size: 200%;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.page-heading {
+    position: relative;
+    text-align: center;
+    color: darkslategrey;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.page-heading img {
+    width: 100%;
+
+}
+
+.page-heading .heading {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.page-heading .heading h1, .about-detail div {
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: 'Charmonman', cursive;
+}
+
+.box-content .heading h2 {
+    height: 75px;
+    background: #DB4437;
+    padding: 13px 0 0 0;
+    position: relative;
+    width: 100%;
+    font-size: 45px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.box-content .heading h2:before {
+    content: "";
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+    border-left: 37px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box-content .heading h2:after {
+    content: "";
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+    border-right: 37px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-detail-img img, .meal-content-img img {
+    width: 100%;
+}
+
+.meal-content-img img {
+    box-sizing: border-box;
+    box-shadow: #333333;
+}
+
+.meal-content-img img:hover {
+    opacity: 0.5;
+}
+
+.item-detail-heading {
+    color: #333333;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    color: #333333;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*.container-fluid {*/
+/*padding-left: 0 !important;*/
+/*}*/
+
+.description-heading h2 {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.box-content:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.page-heading {
+    position: relative;
+    text-align: center;
+    color: darkslategrey;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.page-heading img {
+    width: 100%;
+
+}
+
+.page-heading .heading {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+.page-heading .heading h1 {
+    color: #333333;
+    opacity: 0.8;
+    font-family: 'Charmonman', cursive;
+}
+
+.box-content .heading h2 {
+    height: 75px;
+    background: #DB4437;
+    padding: 13px 0 0 0;
+    position: relative;
+    width: 100%;
+    font-size: 45px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.box-content .heading h2:before {
+    content: "";
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+    border-left: 37px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.box-content .heading h2:after {
+    content: "";
+    border-top: 37px solid transparent;
+    border-bottom: 37px solid transparent;
+    border-right: 37px solid #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-detail-img img, .meal-content-img img {
+    width: 100%;
+}
+
+.meal-content-img img {
+    box-sizing: border-box;
+    box-shadow: #333333;
+}
+
+.meal-content-img img:hover {
+    opacity: 0.5;
+}
+
+.modal-dialog {
+    padding: 70px 0;
+}
+
+.item-detail-heading {
+    color: #333333;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    color: #333333;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.img-block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 315px;
+    background: no-repeat center;
+    background-size: cover;
+    border-radius: 0;
+}
+
+.about-detail div {
+    padding: 5%;
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: 'Charmonman', cursive !important;
+}

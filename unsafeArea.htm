@@ -1,0 +1,31 @@
+<div ng-controller="unsafeAreaController">
+    <!-- Banner -->
+    <div class="sm-banner-container">
+        <div class="sm-banner" style="background-image: url(img/sm-banner.jpg)"></div>
+        <div class="sm-banner-text container-fluid">
+            <div class="demo-banner-title"><h1>UNSAFE AREA</h1></div>
+        </div>
+    </div>
+    <!-- Content Unsafe Area -->
+    <div class="container" data-ng-init="initMap( 21.0833336, 105.6487293)">
+        <div class="row unsafe-content">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div id="map"></div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+                <table class="table table-striped">
+                    <tbody>
+                    <tr>
+                        <td scope="col">#</td>
+                        <td scope="col">Unsafe Area</td>
+                    </tr>
+                    <tr ng-repeat="entry in location" value="entry.name">
+                        <td scope="row">{{entry.id + 1}}</td>
+                        <td ng-click="initMap(entry.lat, entry.lng)" class="pointer_link_1">{{entry.name}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

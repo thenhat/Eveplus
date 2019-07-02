@@ -1,0 +1,28 @@
+<div ng-controller="reportsController">
+    <!-- Banner -->
+    <div class="sm-banner-container">
+        <div class="sm-banner" style="background-image: url(img/sm-banner-report.jpg)"></div>
+        <div class="sm-banner-text container-fluid">
+            <div class="demo-banner-title"><h1>REPORTS</h1></div>
+        </div>
+    </div>
+    <!-- Content Report -->
+    <div  class="container mt-4 mb-4">
+        <table class="report-table">
+            <thead>
+            <tr>
+                <th class="col-6 caw">CRIMES AGAINST WOMEN</th>
+                <th class="col-3">DATE</th>
+                <th class="col-3 title-location">LOCATION</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="entry in report" value="entry.name">
+                <td>{{entry.id + 1}}. {{entry.title}}</td>
+                <td class="date">{{entry.date}}</td>
+                <td class="location">{{entry.location}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

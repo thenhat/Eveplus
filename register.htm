@@ -1,0 +1,44 @@
+<div class="register-background">
+
+<div class="container formRegister mt-5" style="display:flex;width:100%;">
+    <form action="" method="post" name="form-register" novalidate>
+        <div class="form-group" style="width:100%;">
+            <h3 CLASS="text-center text-danger">REGISTER</h3>
+
+            <label>Full Name:</label>
+            <input class="form-control" type="text" name="fullname" required placeholder="Enter Your Full Name"/>
+            <span></span>
+        </div>
+        <div class="form-group" style="width:100%;">
+            <label>Login ID:</label>
+            <input class="form-control" type="text" name="ID" required placeholder="Enter Your ID "/>
+            <span></span>
+        </div>
+        <div class="form-group" style="width:100%;">
+            <label>Email:</label>
+            <input class="form-control" type="email" name="email" required placeholder="Enter Your Email"/>
+            <span></span>
+        </div>
+        <div class="form-group" style="width:100%;">
+            <label>Password:</label>
+            <input class="form-control" type="password" name="password" required placeholder="Enter Password"/>
+            <span></span>
+        </div>
+        <div class="form-group" style="width:100%;">
+            <label>Gender:</label><br/>
+            <label><input type="radio" name="gender" required value="Male" checked /> Male</label>
+            <label><input type="radio" name="gender" required value="Female" /> Female</label>
+            <label><input type="radio" name="gender" required value="Other" /> Other</label>
+        </div>
+        <div class="form-group " style="width:100%;">
+            <input class="btn btn-primary text-white" type="button" name="btnSubmit" value="Submit"/>
+        </div>
+    </form>
+    <div id="register-validate"></div>
+
+</div>
+
+
+</div><br>
+
+<script src="js/register-validate.js"></script>

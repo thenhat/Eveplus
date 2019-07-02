@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html ng-app="scotchApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EvePlus</title>
+    <link rel="shortcut icon" type="png" href="img/logo-2.png"/>
+    <!-- SCROLLS -->
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular-route.js"></script>
+    <!-- Include Current CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/women-heroes.css">
+    <link rel="stylesheet" href="css/self-defense-tips.css">
+    <link rel="stylesheet" href="css/reports.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/unsafe-area.css">
+    <link rel="stylesheet" href="css/campaign.css?1">
+    <link rel="stylesheet" href="css/eye-witness-account.css">
+    <link rel="stylesheet" href="css/sm-banner.css">
+</head>
+<body>
+
+<!-- HEADER AND NAVBAR -->
+<header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"><img src="img/logo-2.png" alt="Logo"></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto" id="navActivity">
+                <li class="nav-item nav-active-current" style="display: none">
+                    <div>
+                        <a class="nav-link nav-btn" href="#">Home</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pointer_link" id="navbardrop" data-toggle="dropdown">Who We Are</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item nav-btn" href="#!about">About Us</a>
+                        <a class="dropdown-item nav-btn" href="#!contact">Contact Us</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!safety-measure">Safety Measures</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!unsafe-area">Unsafe Area</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!report">Reports</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link nav-btn" href="#!self-defense-tip"> Tips</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="#!women-hero">Women Heroes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="#!eye-witness-account">Stories</a>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!campaign-idea">Campaigns</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!login"><i class="fas fa-sign-in-alt"></i></a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div>
+                        <a class="nav-link nav-btn" href="#!register"><i class="fa fa-user-plus"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- MAIN CONTENT AND INJECTED VIEWS -->
+<div id="main" class="">
+    <div ng-view class="animate-fading"></div>
+</div>
+
+<!-- HotLine Scroll Top-->
+<a href="tel: 0912123123" id="hotLine" class="pointer_link"><i class="fas fa-2x fa-phone"></i> Hotline: 0912123123 </a>
+<div id="topBtn"><i class="fas fa-2x fa-arrow-up"></i></div>
+
+<!-- FOOTER -->
+<footer class="container-fluid">
+    <div class="wrap-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer1">
+                    <div class="footer-heading">
+                        <h4>About Us</h4>
+                        <div class="content">
+                            EvePlus is METRAC legal information website. EvePlus tries to help survivors of violence and
+                            their supporters better understand legal rights in Ontario. We do not give legal advice. The
+                            website offers accessible legal information in a way that reflects the diverse experiences
+                            and realities of women.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer2">
+                    <div class="footer-heading">
+                        <h4>EvePlus</h4>
+                    </div>
+                    <div class="content-footer-2">
+                        <img src="img/footer-women-best-gender-equality.jpg" alt="footer-img">
+                    </div>
+                </div>
+                <div class="col-md-4 footer3">
+                    <div class="footer-heading">
+                        <h4>Labels</h4>
+                    </div>
+                    <div class="content">
+                        <ul class="list-unstyled text-center">
+                            <li>
+                                <a href="#">Woman empowerment</a>
+                            </li>
+                            <li>
+                                <a href="#">Equality</a>
+                            </li>
+                            <li>
+                                <a href="#">Woman right</a>
+                            </li>
+                            <li>
+                                <a href="#">Woman campaigns</a>
+                            </li>
+                            <li>
+                                <a href="#">Harassment</a>
+                            </li>
+                            <li>
+                                <a href="#">Abuse</a>
+                            </li>
+                            <li>
+                                <a href="#">Domestic violence</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Time, Location -->
+    <div class="small-footer-wrap">
+        <div class="time-location">
+            <div>
+                <span id="date"></span>
+                <div>
+                    <span id="hours"></span><span>&ensp;:&ensp;</span>
+                    <span id="minutes"></span><span>&ensp;:&ensp;</span>
+                    <span id="seconds"></span><span>&ensp;</span>
+                    <span id="ampm"></span>
+                </div>
+            </div>
+            <div>
+                <span id="local-time"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid footer-copyright">
+                <p>&copy; Copyright 2019 - TNT - APTECH</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- SCRIPT -->
+<script src="js/index.js?1"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZkhD8Q5_XkZEthioPUXM0_bYX3Lp56WI"></script>
+</body>
+</html>

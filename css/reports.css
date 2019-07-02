@@ -1,0 +1,49 @@
+.report-table tr td:first-child {
+    background: #da9748 none repeat scroll 0 0;
+    border-bottom: 2px solid #e5a253;
+    color: #f1f1f1;
+    font-size: 16px;
+    padding: 15px 24px;
+}
+.report-table tr td:first-child:hover{
+    background:  #e5a253;
+    cursor:pointer;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+.report-table .date, .report-table .location{
+    background: #efefef none repeat scroll 0 0;
+    border-bottom: 2px solid #d4d4d4;
+    text-align:center;
+    padding: 16.4px 21px;
+    cursor:pointer;
+}
+.report-table th{
+    text-align: center;
+    background: #6b6b6b none repeat scroll 0 0;
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+    padding: 19px 21px;
+    text-transform: uppercase;
+}
+.report-table .date:hover, .report-table .location:hover {
+    background: #dedede none repeat scroll 0 0;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+
+
+.report-table .caw {
+    border-top-left-radius: 20px;
+}
+.report-table .title-location {
+    border-top-right-radius: 20px;
+}
+
+.report-table .date {
+    border-right: 2px solid #d4d4d4;
+}

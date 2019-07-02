@@ -1,0 +1,73 @@
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: #3d9e66;
+}
+.formRegister input:focus,.formLogin input:focus {
+    outline: none;
+}
+
+.formRegister h3,.formLogin h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.formRegister form,.formLogin form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    background: whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.formRegister > form > div,.formLogin > form > div {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.formRegister > form > div > label,.formLogin > form > div > label {
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.formRegister > form > div > input,.formLogin > form > div > input {
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 5px;
+    border: 0;
+    background: whitesmoke;
+    border-bottom: 1px solid silver;
+    width: 100%;
+    color: gray;
+}
+
+.formRegister > form > label:last-of-type,.formLogin > form > label:last-of-type {
+    text-align: center;
+    padding-top: 50px;
+    display: table;
+    width: 100%;
+    color: white;
+}
+
+.formRegister > form > label:last-of-type > input,.formLogin > form > label:last-of-type > input {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 25px;
+    background: silver;
+    border-radius: 28px;
+    font-size: 12px;
+}
+
+.formRegister .btn,.formLogin .btn {
+    background-color: #28a745;
+    padding: 12px;
+    border-radius: 10px;
+}

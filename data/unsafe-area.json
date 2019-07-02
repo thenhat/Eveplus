@@ -1,0 +1,9 @@
+{
+  "location": [
+    {"id": 0, "lat": 21.0477567, "lng": 105.8118059, "name":  "Trich Sai, Buoi, Tay Ho, Ha Noi, Viet Nam"},
+    {"id": 1, "lat": 21.0937519, "lng": 105.7855209, "name":  "Dong Ngac, Tu Liem, Ha Noi, Viet Nam"},
+    {"id": 2, "lat": 20.9960001, "lng": 105.9032302, "name":  "Dong Du, Ha Noi, Viet Nam"},
+    {"id": 3, "lat": 20.8223736, "lng": 105.9145481, "name":  "De Song Hong,Thuong Tin , Ha Noi, Viet Nam"},
+    {"id": 4, "lat": 20.9301244, "lng": 105.6729185, "name":  "Phu Nghia, Chuong My, Ha Noi, Viet Nam"}
+  ]
+}

@@ -1,0 +1,27 @@
+<div ng-controller="eyeWitnessAccountController">
+    <!-- Banner -->
+    <div class="sm-banner-container">
+        <div class="sm-banner" style="background-image: url(img/sm-banner-eye-witness.jpg)"></div>
+        <div class="sm-banner-text container-fluid">
+            <div class="demo-banner-title"><h1>STORIES</h1></div>
+        </div>
+    </div>
+     <!--Content Eye Witness Account -->
+    <div class="container mt-4 mb-4">
+        <div class="row">
+            <div ng-repeat="entry in witness" value="entry.name" class="col-12 col-sm-12 col-md-4">
+                <div class="card w-100 mb-3" >
+                    <div class="card-img-box" ng-style="{'background-image':'url({{entry.image}})'}"></div>
+                    <div class="d-flex justify-content-center ">
+                        <audio controls class="w-100">
+                            <source ng-src="{{entry.link}}" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-justify">{{entry.title.substr(0, 60)}}...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
